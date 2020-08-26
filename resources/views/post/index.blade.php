@@ -36,7 +36,10 @@
                         </div>
                     @endforeach
                     {{$posts->links()}}
+                @else
+                    <p>No Posts Yet</p>
                 @endif
+
             </div>
         </div>
     </div>

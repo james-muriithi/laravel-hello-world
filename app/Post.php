@@ -14,6 +14,6 @@ class Post extends Model
     protected $primaryKey = 'id';
 
     protected $fillable = [
-      'title', 'body'
+      'title', 'body', 'user_id'
     ];
 }

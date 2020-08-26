@@ -50,7 +50,10 @@ class PostController extends Controller
             'body' => 'required'
         ]);
 
-        Post::create($request->all());
+        $post = $request->all();
+        $post['user_id'] = auth()->user()->id;
+
+        Post::create($post);
 
         return redirect()
             ->route('posts.index')
