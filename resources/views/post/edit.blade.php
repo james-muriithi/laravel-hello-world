@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('content')
-    @include('includes.nav')
     <div class="row m-3">
         <div class="col-12 margin-tb">
             <div class="pull-left">

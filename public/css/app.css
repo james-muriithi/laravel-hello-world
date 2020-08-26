@@ -10904,8 +10904,3 @@ a.text-dark:focus {
   }
 }
 
-body,
-html {
-  overflow-x: hidden !important;
-}
-

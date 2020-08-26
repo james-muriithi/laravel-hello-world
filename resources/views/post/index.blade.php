@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('content')
-    @include('includes.nav')
     <div class="w-100 container mt-3">
         <div class="row justify-content-center align-items-center">
             <div class="col-12 mb-2">
